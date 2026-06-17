@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Script Example</title>
+</head>
+<body>
+
+    <h2>Dynamic Text Changer</h2>
+    <p id="message">This is the original text.</p>
+    
+    <!-- Trigger Button -->
+    <button onclick="changeContent()">Click Me</button>
+
+    <!-- Internal Script -->
+    <script>
+        function changeContent() {
+            document.getElementById("message").innerHTML = "Hello! The script successfully updated this text.";
+        }
+    </script>
+
+</body>
+</html>
